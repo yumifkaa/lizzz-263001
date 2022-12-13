@@ -1,0 +1,395 @@
+
+
+.slider{
+    grid-area: slider;
+    width: 100%;
+    
+    }
+    .slides {
+    width: 100%;
+    height: 70%;
+    padding: 0px;
+    }
+     
+    .pic {
+    display: none;
+   
+    }
+     
+    .pic.block {
+    display: block;
+    object-fit: cover;
+    
+        
+    }
+    .btnRight{
+    position: relative;
+    
+    opacity: 0.9;
+    background: transparent;
+    left: 90%;
+    margin-top: -100em;
+    border: none;
+    font-style: normal;
+    text-align: center;  
+    }
+    .btnLeft{
+        position: relative;
+        opacity: 0.9;
+        background: transparent;
+        margin-left: -5%;
+        
+        border: none;
+        font-style: normal;
+        text-align: center; 
+        margin-top: 30%;   
+    }
+    
+   .btn1, .btn2{
+    width: 90px;
+    height: 115px;
+   }
+    
+    .pic{
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    margin-top: 48%;
+    margin-right: -0.6%;
+    overflow: hidden;
+    padding: 0px;
+    }
+ 
+
+    .container2{
+        padding: 0px;
+    }
+    @media screen and (max-width: 1300px) { 
+        .btnLeft{
+          margin-left: -7%;
+          margin-top: 40%;
+        }
+        .slides {
+            width: 100%;
+            height: -40%;
+            }
+            .pic{
+       
+                margin-top: 50%;
+              
+        }}
+
+       
+
+
+        @media screen and (max-width: 1230px) { 
+            .btnLeft{
+                margin-left: 10%;
+                margin-top: -70em;
+    
+            }
+        .btn1{
+            margin-left: -20%;
+            
+        }
+        .pic{
+            position: absolute;
+            width: 100%;
+            height: 70%;
+           
+            margin-top: 40%;
+        }
+        }
+    @media screen and (max-width: 1200px) { 
+        .btnLeft{
+          margin-left: -5%;
+
+        }
+        .slides {
+            width: 100%;
+            height: 300px;
+            }
+      }
+    
+      @media screen and (max-width: 998px) { 
+      
+        .pic{
+            
+            position: absolute;
+           width: 100%;
+            height: 30%;
+           
+            margin-top: 15%;
+            margin-right: 20%;
+           
+        } 
+            .slides {
+                width: 100%;
+                height: 380px;
+                
+                }
+
+                .btnLeft{
+                    margin-left: -10%;}
+      }
+
+
+      @media screen and (max-width: 830px) { 
+            
+        .btnLeft{
+            left: -3%;}
+            
+            
+            .slides {
+                
+                height: 280px;
+               
+                }
+
+                .pic{
+                    position: absolute;
+                    width: 100%;
+                    height: 35%;
+                    overflow: hidden;
+                    margin-top: 15%;
+                    
+                    
+            }
+            .btnRight{
+          
+                left: 89%;}
+      }
+
+
+
+      @media screen and (max-width: 768px) { 
+        
+        .btnLeft{
+            left: -3%;}
+            
+            
+            .slides {
+                
+                height: 250px;
+               
+                }
+
+                .pic{
+                    position: absolute;
+                    width: 100%;
+                    height: 35%;
+                    
+                    overflow: hidden;
+                    margin-top: 15%;
+                    
+                    
+            }
+            .btnRight{
+          
+                left: 87%;}
+      
+      }
+
+      @media  (max-height:561px) and (max-width: 768px) 
+       {
+        
+            
+            .pic{
+                
+                margin-top: 50%;
+                height: 55%;
+                
+        }
+            
+               
+                }
+
+
+                @media  (max-height:561px) and (max-width: 430px) 
+                {
+                    .pic{
+                
+                    margin-top: -80%;
+                    height: 55%;
+                    
+            }}
+
+         
+      @media screen and (max-width: 576px) { 
+  
+        .btnLeft{
+            left: 4%;}
+            
+            
+            .slides {
+                
+                height: 550px;
+               
+                }
+
+                .pic{
+                    position: absolute;
+                    width: 100%;
+                    height: 35%;
+                    margin-top: 115%;
+                    overflow: hidden;
+                  
+                    
+                    
+                 }
+                 .btnRight{
+          
+                left: 83%;}
+                .btn1, .btn2{
+                    width: 60px;
+                    height: 90px;
+
+    }}
+
+
+
+    @media screen and (max-width: 430px) { 
+        
+      
+        .btnLeft{
+            left: -4%;}
+            
+           
+            .slides {
+                
+                height: 500px;
+               
+                }
+
+                .pic{
+                    position: absolute;
+                    width: 100%;
+                    height: 20%;
+                    
+                    overflow: hidden;
+                    margin-top: 125%;
+                    
+                    
+                 }
+                 .btnRight{
+          
+                left: 83%;}
+                .btn1, .btn2{
+                    width: 60px;
+                    height: 90px;
+                }}
+
+    
+      @media screen and (max-width: 400px) { 
+        .btnLeft{
+            left: -5%;}
+            
+            
+            .slides {
+                
+                height: 530px;
+               
+                }
+
+                .pic{
+                    position: absolute;
+                    width: 100%;
+                    height: 22%;
+                    margin-top: 155%;
+                    overflow: hidden;
+                    
+                    
+                    
+                 }
+                 .btnRight{
+          
+                left: 87%;}
+                .btn1, .btn2{
+                    width: 50px;
+                    height: 75px;
+                }}
+
+      
+      @media screen and (max-width: 375px) { 
+        .btnLeft{
+            left: -5%;}
+            
+            
+            .slides {
+                
+                height: 500px;
+               
+                }
+
+                .pic{
+                    position: absolute;
+                    width: 100%;
+                    height: 25%;
+                   
+                    margin-top: 180%;
+                    
+                    
+                 }
+                 .btnRight{
+          
+                left: 87%;}
+                .btn1, .btn2{
+                    width: 50px;
+                    height: 75px;
+                }
+      }
+    
+
+      @media screen and (max-width: 360px) { 
+
+        .slides {
+                
+            height: 500px;
+           
+            }
+
+            .btnRight{
+          
+                left: 85%;}
+      }
+
+
+      .pic{
+        top: 45%;
+        }
+    
+      @media screen and (max-width: 300px) { 
+        
+        .btnLeft{
+            left: -1%;}
+            
+            
+            .slides {
+                
+                height: 450px;
+               
+                }
+
+                .pic{
+                    position: absolute;
+                    width: 100%;
+                    height: 20%;
+                    margin-top: 210%;
+                    overflow: hidden;
+                    
+                    
+                    
+                 }
+                 .btnRight{
+                 left: 85%;}
+
+
+                .btn1, .btn2{
+                    width: 30px;
+                    height: 55px;
+                }
+       
+      }
+    
+
+      
